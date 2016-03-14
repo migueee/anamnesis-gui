@@ -1,0 +1,1914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EvaluacionVocal</class>
+ <widget class="QMainWindow" name="EvaluacionVocal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>535</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EVALUACION VOCAL</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../sw/voz/dungun/anamnesis-gui/img/aav.png</normaloff>../sw/voz/dungun/anamnesis-gui/img/aav.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>480</y>
+      <width>99</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Guardar</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../sw/voz/dungun/anamnesis-gui/img/edit16.png</normaloff>../sw/voz/dungun/anamnesis-gui/img/edit16.png</iconset>
+    </property>
+   </widget>
+   <widget class="QToolBox" name="toolBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>521</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>521</width>
+       <height>317</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>Principal</string>
+     </attribute>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>491</width>
+        <height>62</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="1" rowspan="2">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Funcional</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" rowspan="2">
+        <widget class="QLabel" name="labelFIsica">
+         <property name="text">
+          <string>Física</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3" rowspan="2">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Emocional</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>TOTAL</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4" rowspan="2">
+        <widget class="QLCDNumber" name="lcdTotal"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSpinBox" name="spinFuncional">
+         <property name="maximum">
+          <number>40</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QSpinBox" name="spinFisica">
+         <property name="maximum">
+          <number>40</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QSpinBox" name="spinEmocional">
+         <property name="maximum">
+          <number>40</number>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" rowspan="3">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Puntaje VHI</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>80</y>
+        <width>501</width>
+        <height>225</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="2">
+        <widget class="QComboBox" name="comboTRR">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Costal alto</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Abdominal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mixto</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Costo diafragmático</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Modo respiratrio
+en reposo</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="3">
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>Apoyo
+respiratorio</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QSpinBox" name="spinTMF">
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>40</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QComboBox" name="comboMRR">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Predominio nasal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Predomonio bucal</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="5">
+        <widget class="QSpinBox" name="spinTME">
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>40</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3" colspan="2">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>Número de inspiraciones
+durante conteo</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2">
+        <widget class="QLCDNumber" name="lcdNumber">
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QComboBox" name="comboCFR">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adecuada</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Regular</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Pobre - alterada</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <widget class="QSpinBox" name="spinNIDC">
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>40</number>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="4" colspan="2">
+        <widget class="QComboBox" name="comboAR">
+         <item>
+          <property name="text">
+           <string>Ninguno</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Bueno</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Regular</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Malo</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>Tipo respiratrio
+en reposo</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>Coordinación
+fono-respiratoria</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>Tiempo máximo
+de fonación</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="2">
+        <widget class="QLabel" name="label_12">
+         <property name="text">
+          <string>Índice s/a</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3" colspan="2">
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>Tiempo máximo
+de espiración</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="5">
+        <widget class="QComboBox" name="comboTRF">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Costal alto</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Abdominal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mixto</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Costo diafragmático</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="5">
+        <widget class="QComboBox" name="comboBox_2">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Predominio nasal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Predominio bucal</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="3" colspan="2">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Tipo respiratrio
+en fonación</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3" colspan="2">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Modo respiratrio
+en fonación</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>521</width>
+       <height>317</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>Postura y tonicidad</string>
+     </attribute>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>150</y>
+        <width>361</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>160</y>
+        <width>361</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="3">
+        <widget class="QLabel" name="label_23">
+         <property name="text">
+          <string>Suprahioidea</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_21">
+         <property name="text">
+          <string>General</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_22">
+         <property name="text">
+          <string>Infrahioidea</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="label_20">
+         <property name="text">
+          <string>Cervical</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="label_25">
+         <property name="text">
+          <string>Cintura
+escapular</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="label_26">
+         <property name="text">
+          <string>Altura
+laringea</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" rowspan="3">
+        <widget class="QLabel" name="label_24">
+         <property name="text">
+          <string>Tonicidad</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="cTonG">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Eutonía</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hipotonía</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hipertornía</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QComboBox" name="cTonI">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Eutonía</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hipotonía</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hipertornía</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QComboBox" name="cTonS">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Eutonía</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hipotonía</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hipertornía</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QComboBox" name="cTonC">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Eutonía</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hipotonía</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hipertornía</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QComboBox" name="cTonCE">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Eutonía</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hipotonía</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hipertornía</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QComboBox" name="cTonAL">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Normal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ascendida</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Descendida</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Anteriorizada</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Posteriorizada</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Sin cracea</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Desplacamiento lateral hacia derecha</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Desplacamiento lateral hacia izquierda</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_27">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>0</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Observaciones</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="observacionesPyT">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>30</y>
+        <width>141</width>
+        <height>271</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>361</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="1" colspan="3">
+        <widget class="QLabel" name="label_19">
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="text">
+          <string>Planos</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>Frontal</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="label_16">
+         <property name="text">
+          <string>Lateral</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="label_17">
+         <property name="text">
+          <string>Posterior</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QComboBox" name="cPPL1">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adecuado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Cabeza adelantada</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hipercifosis</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hiperlordosis</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Rectificación cervical</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Rectificación dorsal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Rectificación lumbar</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="0" rowspan="3">
+        <widget class="QLabel" name="label_18">
+         <property name="text">
+          <string>Postura</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="cPPF1">
+         <item>
+          <property name="text">
+           <string>Ninguno</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adecuado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hacia derecha</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hacia izquierda</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QComboBox" name="cPPP1">
+         <item>
+          <property name="text">
+           <string>Ninguno</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adecuado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hacia derecha</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hacia izquierda</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QComboBox" name="cPPF2">
+         <item>
+          <property name="text">
+           <string>Ninguno</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adecuado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hacia derecha</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hacia izquierda</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QComboBox" name="cPPF3">
+         <item>
+          <property name="text">
+           <string>Ninguno</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adecuado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hacia derecha</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hacia izquierda</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QComboBox" name="cPPL2">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adecuado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Cabeza adelantada</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hipercifosis</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hiperlordosis</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Rectificación cervical</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Rectificación dorsal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Rectificación lumbar</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QComboBox" name="cPPL3">
+         <item>
+          <property name="text">
+           <string>Ninguna</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adecuado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Cabeza adelantada</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hipercifosis</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hiperlordosis</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Rectificación cervical</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Rectificación dorsal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Rectificación lumbar</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QComboBox" name="cPPP2">
+         <item>
+          <property name="text">
+           <string>Ninguno</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adecuado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hacia derecha</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hacia izquierda</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QComboBox" name="cPPP3">
+         <item>
+          <property name="text">
+           <string>Ninguno</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Adecuado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hacia derecha</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hacia izquierda</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>521</width>
+       <height>317</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>Hiperlaxitud, RASATI y tono media hablado</string>
+     </attribute>
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>491</width>
+        <height>142</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="3">
+        <widget class="QLabel" name="label_28">
+         <property name="text">
+          <string>Punta
+de pies</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QSpinBox" name="spinHEC">
+         <property name="minimum">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <number>2</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_29">
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Hiperlaxitud</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QSpinBox" name="spinHPHA">
+         <property name="minimum">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <number>2</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QSpinBox" name="spinHDE">
+         <property name="minimum">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <number>2</number>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_30">
+         <property name="text">
+          <string>Pulgar hacia
+antebrazo</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_31">
+         <property name="text">
+          <string>Extensión
+del codo</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QSpinBox" name="spinHRH">
+         <property name="minimum">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <number>2</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QSpinBox" name="spinHPP">
+         <property name="minimum">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <number>1</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="label_32">
+         <property name="text">
+          <string>Dedos en
+extensión</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="label_33">
+         <property name="text">
+          <string>Rodillas en
+hiperextensión</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="label_34">
+         <property name="text">
+          <string>Puntaje Total</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QLCDNumber" name="lcdHPT">
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>491</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="2" column="2">
+        <widget class="QLabel" name="label_40">
+         <property name="text">
+          <string>Tensión</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="label_41">
+         <property name="text">
+          <string>Inestabilidad</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_36">
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>RASATI</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_38">
+         <property name="text">
+          <string>Aspereza</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="label_39">
+         <property name="text">
+          <string>Astenia</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="label_35">
+         <property name="text">
+          <string>Soplicidad</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_37">
+         <property name="text">
+          <string>Ronquera</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="comboRR">
+         <item>
+          <property name="text">
+           <string>Normal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Leve</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Moderado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Intenso</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QComboBox" name="comboRA">
+         <item>
+          <property name="text">
+           <string>Normal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Leve</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Moderado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Intenso</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QComboBox" name="comboRS">
+         <item>
+          <property name="text">
+           <string>Normal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Leve</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Moderado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Intenso</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QComboBox" name="comboRAst">
+         <item>
+          <property name="text">
+           <string>Normal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Leve</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Moderado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Intenso</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QComboBox" name="comboRT">
+         <item>
+          <property name="text">
+           <string>Normal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Leve</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Moderado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Intenso</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QComboBox" name="comboRI">
+         <item>
+          <property name="text">
+           <string>Normal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Leve</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Moderado</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Intenso</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>270</y>
+        <width>491</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_42">
+         <property name="text">
+          <string>Tono medio hablado</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinTMA"/>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>168</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="Line" name="line_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>135</y>
+        <width>491</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>521</width>
+       <height>317</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>Parámetros acústicos y voz cantada</string>
+     </attribute>
+     <widget class="QWidget" name="layoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>481</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_7">
+       <item row="1" column="3">
+        <widget class="QLineEdit" name="editSLO">
+         <property name="inputMethodHints">
+          <set>Qt::ImhFormattedNumbersOnly</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLabel" name="label_52">
+         <property name="font">
+          <font>
+           <italic>true</italic>
+          </font>
+         </property>
+         <property name="text">
+          <string>&lt; 3,810 %</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="editNHR">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLabel" name="label_49">
+         <property name="font">
+          <font>
+           <italic>true</italic>
+          </font>
+         </property>
+         <property name="text">
+          <string>&gt; 20 dB</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="label_47">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>NHR
+obtenido</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="label_48">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Rango NHR
+esperado
+(Praat)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="label_50">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Rango
+Shimmer local
+esperado (Praat)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_46">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Rango Jitter
+local esperado
+(Praat)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_45">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Jitter local
+obtenido</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="label_51">
+         <property name="font">
+          <font>
+           <italic>true</italic>
+          </font>
+         </property>
+         <property name="text">
+          <string>&lt; 1,040 %</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="editJLO">
+         <property name="inputMethodHints">
+          <set>Qt::ImhFormattedNumbersOnly</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="label_43">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Shimmer local
+obtenido</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" rowspan="4">
+        <widget class="QLabel" name="label_44">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Parámetros
+acústicos</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>160</y>
+        <width>481</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_8">
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="editFF">
+         <property name="inputMethodHints">
+          <set>Qt::ImhFormattedNumbersOnly</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLineEdit" name="editRFF">
+         <property name="inputMethodHints">
+          <set>Qt::ImhFormattedNumbersOnly</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLabel" name="label_56">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Clasificación vocal
+hombre</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLineEdit" name="editT">
+         <property name="inputMethodHints">
+          <set>Qt::ImhFormattedNumbersOnly</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="label_59">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Frecuencia
+fundamenta</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="label_55">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Tipo Cantante</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="label_58">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Rango
+frecuencial</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLabel" name="label_57">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Tesitura</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QLabel" name="label_63">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Clasificación vocal
+mujer</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLineEdit" name="editRET">
+         <property name="inputMethodHints">
+          <set>Qt::ImhFormattedNumbersOnly</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QComboBox" name="comboTC">
+         <item>
+          <property name="text">
+           <string>Ninguno</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Cantante popular</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Cantante lírico</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="label_62">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Rango tonal
+extensión tonal</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QComboBox" name="comboCVM">
+         <item>
+          <property name="text">
+           <string>Ninguno</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Soprano</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mezzosoprano</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Contralto</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QComboBox" name="comboCVH">
+         <item>
+          <property name="text">
+           <string>Ninguno</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Tenor</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Barítono</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Bajo</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="0" rowspan="4">
+        <widget class="QLabel" name="label_60">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Voz
+cantada</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="5">
+        <widget class="Line" name="line_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="labelNombre">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>301</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelRun">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>0</y>
+      <width>201</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>535</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

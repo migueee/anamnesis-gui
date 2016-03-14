@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SintomaConducta</class>
+ <widget class="QWidget" name="SintomaConducta">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>671</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sintomatología y Conductas</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../img/aav50.png</normaloff>../img/aav50.png</iconset>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>651</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Otros síntomas:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="os1">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Problemas de acusión</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Alergías</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Resfríos frecuentes</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Estrés</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Acidez gástrica</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dificultad al tragar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dolor de cuello u hombros</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pérdidas anteriores de la voz</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QComboBox" name="os2">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Problemas de acusión</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Alergías</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Resfríos frecuentes</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Estrés</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Acidez gástrica</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dificultad al tragar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dolor de cuello u hombros</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pérdidas anteriores de la voz</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QComboBox" name="os3">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Problemas de acusión</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Alergías</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Resfríos frecuentes</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Estrés</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Acidez gástrica</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dificultad al tragar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dolor de cuello u hombros</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pérdidas anteriores de la voz</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QComboBox" name="os4">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Problemas de acusión</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Alergías</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Resfríos frecuentes</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Estrés</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Acidez gástrica</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dificultad al tragar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dolor de cuello u hombros</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pérdidas anteriores de la voz</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLineEdit" name="dos2"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="dos1"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Descripción:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLineEdit" name="dos3"/>
+    </item>
+    <item row="1" column="4">
+     <widget class="QLineEdit" name="dos4"/>
+    </item>
+    <item row="2" column="0" colspan="5">
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>300</y>
+     <width>651</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Medicamentos
+que consume:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="textMQC"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>390</y>
+     <width>651</width>
+     <height>78</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Conductas de
+abuso vocal:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="cav1">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fumador</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bebe Alcohol</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Consumo de alimentos condimentados</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Consumo de liquidos (espc. cantidad)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Consumo de café (espc. cantidad)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pastillas de menta (espc. cantidad)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Intensidad vocal elevada</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Realiza actividad física</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Se expone a cambios de temperatura</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Se expone a calefacción</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Detalle:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="dcav1"/>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="dcav2"/>
+    </item>
+    <item row="1" column="2">
+     <widget class="QComboBox" name="cav2">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fumador</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bebe Alcohol</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Consumo de alimentos condimentados</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Consumo de liquidos (espc. cantidad)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Consumo de café (espc. cantidad)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pastillas de menta (espc. cantidad)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Intensidad vocal elevada</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Realiza actividad física</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Se expone a cambios de temperatura</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Se expone a calefacción</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QLineEdit" name="dcav4"/>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLineEdit" name="dcav3"/>
+    </item>
+    <item row="1" column="3">
+     <widget class="QComboBox" name="cav3">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fumador</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bebe Alcohol</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Consumo de alimentos condimentados</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Consumo de liquidos (espc. cantidad)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Consumo de café (espc. cantidad)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pastillas de menta (espc. cantidad)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Intensidad vocal elevada</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Realiza actividad física</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Se expone a cambios de temperatura</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Se expone a calefacción</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QComboBox" name="cav4">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fumador</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bebe Alcohol</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Consumo de alimentos condimentados</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Consumo de liquidos (espc. cantidad)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Consumo de café (espc. cantidad)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pastillas de menta (espc. cantidad)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Intensidad vocal elevada</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Realiza actividad física</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Se expone a cambios de temperatura</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Se expone a calefacción</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="5">
+     <widget class="Line" name="line_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>480</y>
+     <width>131</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Horas que duerme:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Paciente:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bguardar">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>470</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/edit16.png</normaloff>../img/edit16.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nombrep">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>nombre</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fecha">
+   <property name="geometry">
+    <rect>
+     <x>496</x>
+     <y>20</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>651</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="2">
+     <widget class="QLineEdit" name="dsvr2"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Síntomas vocales
+relevantes:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="svr1">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ronquera</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dolor fonar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fatiga</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sensación de cuerpo extraño</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Picor al hablar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Carraspera</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Tensión al hablar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Resequedad</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Esfuerzo al hablar</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QComboBox" name="svr3">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ronquera</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dolor fonar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fatiga</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sensación de cuerpo extraño</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Picor al hablar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Carraspera</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Tensión al hablar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Resequedad</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Esfuerzo al hablar</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QComboBox" name="svr4">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ronquera</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dolor fonar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fatiga</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sensación de cuerpo extraño</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Picor al hablar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Carraspera</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Tensión al hablar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Resequedad</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Esfuerzo al hablar</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLineEdit" name="dsvr3"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Descripción:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="dsvr1"/>
+    </item>
+    <item row="1" column="4">
+     <widget class="QLineEdit" name="dsvr4"/>
+    </item>
+    <item row="0" column="2">
+     <widget class="QComboBox" name="svr2">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ronquera</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dolor fonar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fatiga</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sensación de cuerpo extraño</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Picor al hablar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Carraspera</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Tensión al hablar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Resequedad</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Esfuerzo al hablar</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="5">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>651</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Antecedentes
+médicos
+generales:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="textAMG"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="apellidop">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>10</y>
+     <width>291</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>run</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="hqd">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>480</y>
+     <width>71</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>24</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
